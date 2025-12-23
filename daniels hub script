@@ -138,3 +138,14 @@ local Button = BroTab:CreateButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/dreamy9x9x/darkaureus/refs/heads/main/brookhaven.lua"))() 
    end,
 })
+
+local DisTab = Window:CreateTab("Discord", nil) -- Title, Image
+local Section = DisTab:CreateSection("Discord")
+
+ocal Button = BroTab:CreateButton({
+   Name = "Discord",
+   Callback = function()
+   https://discord.gg/pRh2TxsZFK
+   end,
+})
+
