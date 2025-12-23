@@ -1,0 +1,116 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "Daniels Hub",
+   Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
+    LoadingTitle = "Loading Daniels Hub",
+   LoadingSubtitle = "by Downup0287 on roblox",
+   ShowText = "Rayfield", -- for mobile users to unhide rayfield, change if you'd like
+   Theme = "Ocean", -- Check https://docs.sirius.menu/rayfield/configuration/themes
+
+   ToggleUIKeybind = "K", -- The keybind to toggle the UI visibility (string like "K" or Enum.KeyCode)
+
+   DisableRayfieldPrompts = false,
+   DisableBuildWarnings = false, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
+
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "danielsHub"
+   },
+
+   Discord = {
+      Enabled = true, -- Prompt the user to join your Discord server if their executor supports it
+      Invite = "fnqej8JeXn", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ ABCD would be ABCD
+      RememberJoins = false -- Set this to false to make them join the discord every time they load it up
+   },
+
+   KeySystem = false, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "Daniels hub key system",
+      Subtitle = "Key System",
+        Note = "key is in discord", -- Use this to tell the user how to get a key
+      FileName = "KeyForDanielsHub", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+      SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = {"Christmas2025"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+   }
+})
+
+--GeneralTab
+local GeneralTab = Window:CreateTab("General ⚙", nil) -- Title, Image
+local Section = GeneralTab:CreateSection("General ⚙")
+
+local Button = GeneralTab:CreateButton({
+   Name = "Ver:1.0.0",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   end,
+})
+
+local Button = GeneralTab:CreateButton({
+   Name = "By Downup0287 on roblox",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   end,
+})
+
+local Button = GeneralTab:CreateButton({
+   Name = "Destroy the script",
+   Callback = function()
+   Rayfield:Destroy()
+   end,
+})
+
+--Plants Vs Brainrots tab
+local PvBTab = Window:CreateTab("Plants Vs Brainrots 🌻", nil) -- Title, Image
+local Section = PvBTab:CreateSection("Plants Vs Brainrots 🌻")
+
+local Button = PvBTab:CreateButton({
+   Name = "Walvy Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Walvy666/Triplesix/main/loader.lua", true))()
+   end,
+})
+
+local Button = PvBTab:CreateButton({
+   Name = "UB Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://gitlab.com/r_soft/main/-/raw/main/LoadUB.lua"))()
+   end,
+})
+
+local Button = PvBTab:CreateButton({
+   Name = "ReyHub",
+   Callback = function()
+   oadstring(game:HttpGet("https://raw.githubusercontent.com/javi-esp/ReyHubOnTop/main/plantsvsbrainrots.lua"))()
+   end,
+})
+
+--99 Nights in the Forest
+local nightsTab = Window:CreateTab("99 Nights in the Forest 🔦", nil) -- Title, Image
+local Section = nightsTab:CreateSection("99 Nights in the Forest 🔦")
+
+local Button = nightsTab:CreateButton({
+   Name = "nazuro.xyz",
+   Callback = function()
+   loadstring(game:HttpGet("https://nazuro.xyz/99nights"))()
+   end,
+})
+
+    local Button = nightsTab:CreateButton({
+   Name = "Voidware",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VWExtra/main/NightsInTheForest.lua", true))()
+   end,
+})
+
+local sabTab = Window:CreateTab("Steal a Brainrot", nil) -- Title, Image
+local Section = sabTab:CreateSection("Steal a Brainrot")
+
+local Button = sabTab:CreateButton({
+   Name = "Feronik Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Fenorik/FenorikHub/refs/heads/main/FenorikHubINIT.lua"))()
+   end,
+})
