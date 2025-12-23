@@ -190,8 +190,8 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/artas01/robscript/ref
    end,
 })
 
-local Blox FruitsTab = Window:CreateTab("MM2", nil) -- Title, Image
-local Section = Blox FruitsTab:CreateSection("MM2")
+local Blox FruitsTab = Window:CreateTab("Blox Fruits", nil) -- Title, Image
+local Section = Blox FruitsTab:CreateSection("Blox Fruits")
 
 local Button = Blox FruitsTab:CreateButton({
    Name = "Neru Hub",
