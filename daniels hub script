@@ -42,7 +42,7 @@ local GeneralTab = Window:CreateTab("General ⚙", nil) -- Title, Image
 local Section = GeneralTab:CreateSection("General ⚙")
 
 local Button = GeneralTab:CreateButton({
-   Name = "Ver:1.0.0",
+   Name = "Ver:1.9.0",
    Callback = function()
    -- The function that takes place when the button is pressed
    end,
@@ -170,5 +170,22 @@ local Button = Fish ItTab:CreateButton({
    Name = "Stellar Hub",
    Callback = function()
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5eb08ffffc36b5fc8b948351cbe7b0ad.lua"))()
+   end,
+})
+
+local MM2Tab = Window:CreateTab("MM2", nil) -- Title, Image
+local Section = MM2Tab:CreateSection("MM2")
+
+local Button = MM2Tab:CreateButton({
+   Name = "YAHRM Hub",
+   Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/k1aPFVCp", true))()
+   end,
+})
+
+local Button = MM2Tab:CreateButton({
+   Name = "Rob Hub",
+   Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/artas01/robscript/refs/heads/main/loader.lua'))()
    end,
 })
