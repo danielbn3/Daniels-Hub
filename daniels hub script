@@ -62,6 +62,8 @@ local Button = GeneralTab:CreateButton({
    end,
 })
 
+local Section = GeneralTab:CreateSection("Universal ⚙")
+
 --Plants Vs Brainrots tab
 local PvBTab = Window:CreateTab("Plants Vs Brainrots 🌻", nil) -- Title, Image
 local Section = PvBTab:CreateSection("Plants Vs Brainrots 🌻")
