@@ -1,4 +1,4 @@
-llocal Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
    Name = "Daniels Hub",
@@ -146,5 +146,29 @@ local Button = BroTab:CreateButton({
    Name = "Nytherune Hub",
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/dreamy9x9x/darkaureus/refs/heads/main/brookhaven.lua"))() 
+   end,
+})
+
+local Fish ItTab = Window:CreateTab("Fish It", nil) -- Title, Image
+local Section = Fish ItTab:CreateSection("Fish It")
+
+local Button = Fish ItTab:CreateButton({
+   Name = "SolvexGUI OP",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Solvexxxx/Scripts/refs/heads/main/SolvexGUI_FishIt.lua"))()
+   end,
+})
+
+local Button = Fish ItTab:CreateButton({
+   Name = "Mystrix Hub",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ummarxfarooq/mystrix-hub/refs/heads/main/key.lua"))()
+   end,
+})
+
+local Button = Fish ItTab:CreateButton({
+   Name = "Stellar Hub",
+   Callback = function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5eb08ffffc36b5fc8b948351cbe7b0ad.lua"))()
    end,
 })
