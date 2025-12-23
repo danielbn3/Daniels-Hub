@@ -189,3 +189,20 @@ local Button = MM2Tab:CreateButton({
 loadstring(game:HttpGet('https://raw.githubusercontent.com/artas01/robscript/refs/heads/main/loader.lua'))()
    end,
 })
+
+local Blox FruitsTab = Window:CreateTab("MM2", nil) -- Title, Image
+local Section = Blox FruitsTab:CreateSection("MM2")
+
+local Button = Blox FruitsTab:CreateButton({
+   Name = "Neru Hub",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NeroHubClub/AutoMythicFruitFinder/refs/heads/main/NeroHubFruitFinder"))()
+   end,
+})
+
+local Button = Blox FruitsTab:CreateButton({
+   Name = "Redz Hub",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Scripts/refs/heads/main/main.luau"))()
+   end,
+})
