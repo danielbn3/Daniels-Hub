@@ -143,6 +143,20 @@ local Button = BroTab:CreateButton({
 })
 
 local Button = BroTab:CreateButton({
+   Name = "Sander X Hub - Version 3",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dreamy9x9x/darkaureus/refs/heads/main/brookhaven.lua"))() 
+   end,
+})
+
+local Button = BroTab:CreateButton({
+   Name = "Sander X hub - Version 2",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dreamy9x9x/darkaureus/refs/heads/main/brookhaven.lua"))() 
+   end,
+})
+
+local Button = BroTab:CreateButton({
    Name = "Nytherune Hub",
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/dreamy9x9x/darkaureus/refs/heads/main/brookhaven.lua"))() 
