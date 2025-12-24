@@ -136,7 +136,7 @@ local BroTab = Window:CreateTab("Brookhaven 🏡RP", nil) -- Title, Image
 local Section = BroTab:CreateSection("Brookhaven 🏡RP")
 
 local Button = BroTab:CreateButton({
-   Name = "Sander XY",
+   Name = "Sander XY - only works on solara",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/kigredns/testUIDK/refs/heads/main/panel.lua"))()
    end,
