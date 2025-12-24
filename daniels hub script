@@ -42,7 +42,7 @@ local GeneralTab = Window:CreateTab("General ⚙", nil) -- Title, Image
 local Section = GeneralTab:CreateSection("General ⚙")
 
 local Button = GeneralTab:CreateButton({
-   Name = "Ver:1.9.0",
+   Name = "Ver:Beta-1.9.1",
    Callback = function()
    -- The function that takes place when the button is pressed
    end,
@@ -105,6 +105,7 @@ local Button = nightsTab:CreateButton({
    end,
 })
 
+--SaB
 local sabTab = Window:CreateTab("Steal a Brainrot", nil) -- Title, Image
 local Section = sabTab:CreateSection("Steal a Brainrot")
 
@@ -132,29 +133,9 @@ local Button = gagTab:CreateButton({
    end,
 })
 
+--brookhaven
 local BroTab = Window:CreateTab("Brookhaven 🏡RP", nil) -- Title, Image
 local Section = BroTab:CreateSection("Brookhaven 🏡RP")
-
-local Button = BroTab:CreateButton({
-   Name = "Sander XY - only works on solara",
-   Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/kigredns/testUIDK/refs/heads/main/panel.lua"))()
-   end,
-})
-
-local Button = BroTab:CreateButton({
-   Name = "Sander X Hub - Version 3",
-   Callback = function()
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/sXPiterXs1111/Sanderxv3.30/main/sanderx3.30')))()
-   end,
-})
-
-local Button = BroTab:CreateButton({
-   Name = "Sander X hub - Version 2",
-   Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/sXPiterXs1111/Sanderx3.25/main/sanderxv3.25.lua"))()
-   end,
-})
 
 local Button = BroTab:CreateButton({
    Name = "Nytherune Hub",
@@ -163,6 +144,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/dreamy9x9x/darkaureus
    end,
 })
 
+--fish it
 local Fish ItTab = Window:CreateTab("Fish It", nil) -- Title, Image
 local Section = Fish ItTab:CreateSection("Fish It")
 
@@ -187,6 +169,7 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5eb08ffffc36b5
    end,
 })
 
+--mm2
 local MM2Tab = Window:CreateTab("MM2", nil) -- Title, Image
 local Section = MM2Tab:CreateSection("MM2")
 
@@ -204,6 +187,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/artas01/robscript/ref
    end,
 })
 
+--blox fruits
 local Blox FruitsTab = Window:CreateTab("Blox Fruits", nil) -- Title, Image
 local Section = Blox FruitsTab:CreateSection("Blox Fruits")
 
