@@ -56,9 +56,9 @@ local Button = GeneralTab:CreateButton({
 })
 
 local Button = GeneralTab:CreateButton({
-   Name = "By Downup0287 on roblox",
+   Name = "Destroy the UI",
    Callback = function()
-   -- The function that takes place when the button is pressed
+   Rayfield:Destroy()
    end,
 })
 
@@ -76,14 +76,14 @@ local Section = unTab:CreateSection("universal")
 local Button = unTab:CreateButton({
    Name = "Universal KILASIKS MULTI FLING",
    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/K1LAS1K/Ultimate-Fling-GUI/main/flingscript.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/K1LAS1K/Ultimate-Fling-GUI/main/flingscript.lua"))()
    end,
 })
 
 local Button = unTab:CreateButton({
    Name = "FLY GUI V3",
    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
    end,
 })
 
