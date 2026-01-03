@@ -151,6 +151,27 @@ local Button = nightsTab:CreateButton({
    end,
 })
 
+local Button = nightsTab:CreateButton({
+   Name = "H4xScripts",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/H4xScripts/Loader/refs/heads/main/loader.lua", true))()
+   end,
+})
+
+local Button = nightsTab:CreateButton({
+   Name = "SpaceHub",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/ago106/SpaceHub/refs/heads/main/loader.lua'))()
+   end,
+})
+
+local Button = nightsTab:CreateButton({
+   Name = "SpeedHubX",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+   end,
+})
+
 --SaB--------------------------------------------------------------------------------------------------------------------------------
 local sabTab = Window:CreateTab("Steal a Brainrot", nil) -- Title, Image
 local Section = sabTab:CreateSection("Steal a Brainrot")
