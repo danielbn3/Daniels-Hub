@@ -42,7 +42,7 @@ local GeneralTab = Window:CreateTab("General ⚙", nil) -- Title, Image
 local Section = GeneralTab:CreateSection("General ⚙")
 
 local Button = GeneralTab:CreateButton({
-   Name = "Ver:Beta-2.1.0",
+   Name = "Ver:Beta-2.1.1",
    Callback = function()
    -- The function that takes place when the button is pressed
    end,
@@ -84,6 +84,13 @@ local Button = unTab:CreateButton({
    Name = "FLY GUI V3",
    Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+   end,
+})
+
+local Button = unTab:CreateButton({
+   Name = "Cmd Admin",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/lxte/cmd/main/main.lua"))()
    end,
 })
 
