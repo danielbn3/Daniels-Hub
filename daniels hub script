@@ -5,7 +5,7 @@ local Window = Rayfield:CreateWindow({
    Icon = 10966923577, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
     LoadingTitle = "Loading Daniels Hub",
    LoadingSubtitle = "by Downup0287 on roblox",
-   ShowText = "Rayfield", -- for mobile users to unhide rayfield, change if you'd like
+   ShowText = "Daniels Hub", -- for mobile users to unhide rayfield, change if you'd like
    Theme = "Ocean", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
    ToggleUIKeybind = "K", -- The keybind to toggle the UI visibility (string like "K" or Enum.KeyCode)
@@ -41,31 +41,16 @@ local Window = Rayfield:CreateWindow({
 local GeneralTab = Window:CreateTab("General ⚙", nil) -- Title, Image
 local Section = GeneralTab:CreateSection("General ⚙")
 
-local Button = GeneralTab:CreateButton({
-   Name = "Ver:Beta-2.1.1",
-   Callback = function()
-   -- The function that takes place when the button is pressed
-   end,
-})
+local Label = GeneralTab:CreateLabel("Ver:Beta-2.1.1", 4483362458, Color3.fromRGB(255, 255, 255), false) -- Title, Icon, Color, IgnoreTheme
+
+local Label = GeneralTab:CreateLabel("By Downup0287 on roblox", 4483362458, Color3.fromRGB(255, 255, 255), false) -- Title, Icon, Color, IgnoreTheme
+
+local Label = GeneralTab:CreateLabel("Thanks for using", 4483362458, Color3.fromRGB(255, 255, 255), false) -- Title, Icon, Color, IgnoreTheme
 
 local Button = GeneralTab:CreateButton({
-   Name = "By Downup0287 on roblox",
-   Callback = function()
-   -- The function that takes place when the button is pressed
-   end,
-})
-
-local Button = GeneralTab:CreateButton({
-   Name = "Destroy the UI",
+   Name = "Destroy UI",
    Callback = function()
    Rayfield:Destroy()
-   end,
-})
-
-local Button = GeneralTab:CreateButton({
-   Name = "Thanks for using",
-   Callback = function()
-   ---hi
    end,
 })
 
@@ -91,6 +76,37 @@ local Button = unTab:CreateButton({
    Name = "Cmd Admin",
    Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/lxte/cmd/main/main.lua"))()
+   end,
+})
+
+local esbrainTab = Window:CreateTab("Escape Tsunami For Brainrots!", nil) -- Title, Image
+local Section = esbrain:CreateSection("Escape Tsunami For Brainrots!")
+
+local Button = esbrainTab:CreateButton({
+   Name = "Ekuve Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/ekuve/ekuvehub/main/main.lua"))()
+   end,
+})
+
+local Button = esbrainTab:CreateButton({
+   Name = "Speed Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+   end,
+})
+
+local Button = esbrainTab:CreateButton({
+   Name = "Blessed Hub X",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/mynamewendel-ctrl/Blessed-Hub-X-/refs/heads/main/Escape%20Tsunami%20For%20Brainrots.lua"))()
+   end,
+})
+
+local Button = esbrainTab:CreateButton({
+   Name = "Rat Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Ratkinator/RatX/refs/heads/main/Loader.lua",true))()
    end,
 })
 
@@ -163,6 +179,178 @@ local Button = nightsTab:CreateButton({
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/H4xScripts/Loader/refs/heads/main/loader.lua", true))()
    end,
+})
+
+local Button = nightsTab:CreateButton({
+   Name = "SpaceHub",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/ago106/SpaceHub/refs/heads/main/loader.lua'))()
+   end,
+})
+
+local Button = nightsTab:CreateButton({
+   Name = "SpeedHubX",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+   end,
+})
+
+--SaB--------------------------------------------------------------------------------------------------------------------------------
+local sabTab = Window:CreateTab("Steal a Brainrot", nil) -- Title, Image
+local Section = sabTab:CreateSection("Steal a Brainrot")
+
+local Button = sabTab:CreateButton({
+   Name = "Feronik Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Fenorik/FenorikHub/refs/heads/main/FenorikHubINIT.lua"))()
+   end,
+})
+
+local Button = sabTab:CreateButton({
+   Name = "DelfiScript",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastefy.app/0CVCLFPZ/raw"))()
+   end,
+})
+
+local Button = sabTab:CreateButton({
+   Name = "Umbrella Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Atom1gg/Umbrella/refs/heads/main/Loader.lua"))()
+   end,
+})
+
+local Button = sabTab:CreateButton({
+   Name = "Frostware",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Jake-Brock/Scripts/main/Fw%20SAB.lua",true))()
+   end,
+})
+
+local Button = sabTab:CreateButton({
+   Name = "Chilli Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/tienkhanh1/spicy/main/Chilli.lua"))()
+   end,
+})
+
+--gag-------------------------------------------------------------------------------------------------------------------------------------
+local gagTab = Window:CreateTab("Grow a garden", nil) -- Title, Image
+local Section = gagTab:CreateSection("Grow a garden")
+
+local Button = gagTab:CreateButton({
+   Name = "Speed Hub X",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+   end,
+})
+
+--brookhaven--------------------------------------------------------------------------------------------------------------------------------
+local BroTab = Window:CreateTab("Brookhaven 🏡RP", nil) -- Title, Image
+local Section = BroTab:CreateSection("Brookhaven 🏡RP")
+
+local Button = BroTab:CreateButton({
+   Name = "Nytherune Hub",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dreamy9x9x/darkaureus/refs/heads/main/brookhaven.lua"))() 
+   end,
+})
+
+local Button = BroTab:CreateButton({
+   Name = "Glazed hub",
+   Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Gazer-Ha/Gaze-stuff/refs/heads/main/Brookhaven'))()
+   end,
+})
+
+--Fish it-------------------------------------------------------------------------------------------------------------------------------------
+local Fish ItTab = Window:CreateTab("Fish It", nil) -- Title, Image
+local Section = Fish ItTab:CreateSection("Fish It")
+
+local Button = Fish ItTab:CreateButton({
+   Name = "SolvexGUI OP",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Solvexxxx/Scripts/refs/heads/main/SolvexGUI_FishIt.lua"))()
+   end,
+})
+
+local Button = Fish ItTab:CreateButton({
+   Name = "Mystrix Hub",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ummarxfarooq/mystrix-hub/refs/heads/main/key.lua"))()
+   end,
+})
+
+local Button = Fish ItTab:CreateButton({
+   Name = "Stellar Hub",
+   Callback = function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5eb08ffffc36b5fc8b948351cbe7b0ad.lua"))()
+   end,
+})
+
+local Button = Fish ItTab:CreateButton({
+   Name = "KrakenWare",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kenniel123/Fish-It/refs/heads/main/Fish%20It"))() 
+   end,
+})
+
+local Button = Fish ItTab:CreateButton({
+   Name = "H4xScripts Hub",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/H4xScripts/Loader/refs/heads/main/loader.lua", true))()
+   end,
+})
+
+--mm2-------------------------------------------------------------------------------------------------------------
+local MM2Tab = Window:CreateTab("MM2", nil) -- Title, Image
+local Section = MM2Tab:CreateSection("MM2")
+
+local Button = MM2Tab:CreateButton({
+   Name = "YAHRM Hub",
+   Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/k1aPFVCp", true))()
+   end,
+})
+
+local Button = MM2Tab:CreateButton({
+   Name = "Rob Hub",
+   Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/artas01/robscript/refs/heads/main/loader.lua'))()
+   end,
+})
+
+local Button = MM2Tab:CreateButton({
+   Name = "ManaV2",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Maanaaaa/ManaV2ForRoblox/main/MainScript.lua"))()
+   end,
+})
+
+--Blox fruits---------------------------------------------------------------------------------------------------------
+local Blox FruitsTab = Window:CreateTab("Blox Fruits", nil) -- Title, Image
+local Section = Blox FruitsTab:CreateSection("Blox Fruits")
+
+local Button = Blox FruitsTab:CreateButton({
+   Name = "Neru Hub",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NeroHubClub/AutoMythicFruitFinder/refs/heads/main/NeroHubFruitFinder"))()
+   end,
+})
+
+local Button = Blox FruitsTab:CreateButton({
+   Name = "Redz Hub",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Scripts/refs/heads/main/main.luau"))()
+   end,
+})
+
+local Button = Blox FruitsTab:CreateButton({
+   Name = "Blue X Hub",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
+   end,
+})
 })
 
 local Button = nightsTab:CreateButton({
