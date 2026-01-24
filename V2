@@ -1,30 +1,30 @@
 local Luna = loadstring(game:HttpGet("https://raw.nebulasoftworks.xyz/luna", true))()
 
 local Window = Luna:CreateWindow({
-    Name = "Luna Example Window", -- This Is Title Of Your Window
+    Name = "Daniels hub V2", -- This Is Title Of Your Window
     Subtitle = nil, -- A Gray Subtitle next To the main title.
     LogoID = "82795327169782", -- The Asset ID of your logo. Set to nil if you do not have a logo for Luna to use.
     LoadingEnabled = true, -- Whether to enable the loading animation. Set to false if you do not want the loading screen or have your own custom one.
-    LoadingTitle = "Luna Interface Suite", -- Header for loading screen
-    LoadingSubtitle = "by Nebula Softworks", -- Subtitle for loading screen
+    LoadingTitle = "Loading", -- Header for loading screen
+    LoadingSubtitle = "by Downup0287 on roblox", -- Subtitle for loading screen
 
     ConfigSettings = {
         RootFolder = nil, -- The Root Folder Is Only If You Have A Hub With Multiple Game Scripts and u may remove it. DO NOT ADD A SLASH
-        ConfigFolder = "Big Hub" -- The Name Of The Folder Where Luna Will Store Configs For This Script. DO NOT ADD A SLASH
+        ConfigFolder = "Hub" -- The Name Of The Folder Where Luna Will Store Configs For This Script. DO NOT ADD A SLASH
     },
 
-    KeySystem = true, -- As Of Beta 6, Luna Has officially Implemented A Key System!
+    KeySystem = false, -- As Of Beta 6, Luna Has officially Implemented A Key System!
     KeySettings = {
-        Title = "Luna Example Key",
-        Subtitle = "Key System",
-        Note = "Best Key System Ever! Also, Please Use A HWID Keysystem like Pelican, Luarmor etc. that provide key strings based on your HWID since putting a simple string is very easy to bypass",
+        Title = "Daniel Hub V2 Key",
+        Subtitle = "Key In Discord",
+        Note = "click discord then it copy the link",
         SaveInRoot = false, -- Enabling will save the key in your RootFolder (YOU MUST HAVE ONE BEFORE ENABLING THIS OPTION)
         SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
-        Key = {""}, -- List of keys that will be accepted by the system, please use a system like Pelican or Luarmor that provide key strings based on your HWID since putting a simple string is very easy to bypass
+        Key = {"Daniels hubs"}, -- List of keys that will be accepted by the system, please use a system like Pelican or Luarmor that provide key strings based on your HWID since putting a simple string is very easy to bypass
         SecondAction = {
             Enabled = true, -- Set to false if you do not want a second action,
-            Type = "Link", -- Link / Discord.
-            Parameter = "" -- If Type is Discord, then put your invite link (DO NOT PUT DISCORD.GG/). Else, put the full link of your key system here.
+            Type = "Discord", -- Link / Discord.
+            Parameter = "fnqej8JeXn" -- If Type is Discord, then put your invite link (DO NOT PUT DISCORD.GG/). Else, put the full link of your key system here.
         }
     }
 })
@@ -33,4 +33,177 @@ Window:CreateHomeTab({
     SupportedExecutors = {}, -- A Table Of Executors Your Script Supports. Add strings of the executor names for each executor.
     DiscordInvite = "fnqej8JeXn", -- The Discord Invite Link. Do Not Include discord.gg/ | Only Include the code.
     Icon = 1, -- By Default, The Icon Is The Home Icon. If You would like to change it to dashboard, replace the interger with 2
+})
+
+-------------Escape Tsunami For Brainrots!-----------------------------------------------------------------------------------------------
+local esTab = Window:CreateTab({
+    Name = "Escape Tsunami For Brainrots!",
+    Icon = "view_in_ar",
+    ImageSource = "Material",
+    ShowTitle = true -- This will determine whether the big header text in the tab will show
+})
+
+local Button = esTab:CreateButton({
+    Name = "Ekuve Hub",
+    Description = nil, -- Creates A Description For Users to know what the button does (looks bad if you use it all the time),
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/ekuve/ekuvehub/main/main.lua"))()
+    end
+})
+
+local Button = esTab:CreateButton({
+    Name = "Speed Hub",
+    Description = nil, -- Creates A Description For Users to know what the button does (looks bad if you use it all the time),
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+    end
+})
+
+local Button = esTab:CreateButton({
+    Name = "Blessed Hub X",
+    Description = nil, -- Creates A Description For Users to know what the button does (looks bad if you use it all the time),
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/mynamewendel-ctrl/Blessed-Hub-X-/refs/heads/main/Escape%20Tsunami%20For%20Brainrots.lua"))()
+    end
+})
+
+local Button = esTab:CreateButton({
+    Name = "Rat Hub",
+    Description = nil, -- Creates A Description For Users to know what the button does (looks bad if you use it all the time),
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Ratkinator/RatX/refs/heads/main/Loader.lua",true))()
+    end
+})
+
+local Button = esTab:CreateButton({
+    Name = "Lumin Hub",
+    Description = nil, -- Creates A Description For Users to know what the button does (looks bad if you use it all the time),
+    Callback = function()
+        loadstring(game:HttpGet("http://luminon.top/loader.lua"))()
+    end
+})
+
+local Button = esTab:CreateButton({
+    Name = "Rift Hub",
+    Description = nil, -- Creates A Description For Users to know what the button does (looks bad if you use it all the time),
+    Callback = function()
+        script_key="";
+loadstring(game:HttpGet("https://rifton.top/loader.lua"))()
+    end
+})
+
+local Button = esTab:CreateButton({
+    Name = "Prime Hub",
+    Description = nil, -- Creates A Description For Users to know what the button does (looks bad if you use it all the time),
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/wendigo5414-cmyk/Escape-tsunami-for-brainrots-/refs/heads/main/main.lua", true))()
+    end
+})
+
+local Button = esTab:CreateButton({
+    Name = "KaitoHub GUI",
+    Description = nil, -- Creates A Description For Users to know what the button does (looks bad if you use it all the time),
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaitofyp/Escape-Tsunami-For-Brainrots-Op-Script/refs/heads/main/obf_OU2411s2e4ZO7tD5k2mr0rLSfGlb6zE0Npq7697cnB2B0A213t6d2DUX620qw1E9.lua.txt"))()
+    end
+})
+--------------sab---------------------------------------------------------------------------------
+
+local SabTab = Window:CreateTab({
+    Name = "Sab",
+    Icon = "view_in_ar",
+    ImageSource = "Material",
+    ShowTitle = true -- This will determine whether the big header text in the tab will show
+})
+
+local Button = SabTab:CreateButton({
+    Name = "Gumanba",
+    Description = nil, -- Creates A Description For Users to know what the button does (looks bad if you use it all the time),
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/refs/heads/main/StealaBrainrot", true))()
+    end
+})
+
+local Button = SabTab:CreateButton({
+    Name = "QuantumPulsar X",
+    Description = nil, -- Creates A Description For Users to know what the button does (looks bad if you use it all the time),
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Estevansit0/KJJK/refs/heads/main/PusarX-loader.lua"))()
+    end
+})
+
+local Button = SabTab:CreateButton({
+    Name = "Laserhun’s Steal Auto Collection",
+    Description = nil, -- Creates A Description For Users to know what the button does (looks bad if you use it all the time),
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Hamza3270308/Stealabrainrot/refs/heads/main/Laserhun.lua"))()
+    end
+})
+
+local Button = SabTab:CreateButton({
+    Name = "Laserhun’s",
+    Description = nil, -- Creates A Description For Users to know what the button does (looks bad if you use it all the time),
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Hamza3270308/Stealabrainrot/refs/heads/main/StealScript.lua", true))()
+    end
+})
+
+local Button = SabTab:CreateButton({
+    Name = "Ghost Hub",
+    Description = nil, -- Creates A Description For Users to know what the button does (looks bad if you use it all the time),
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Akbar123s/Script-Roblox-/refs/heads/main/Script%20Brainrot%20New"))()
+    end
+})
+
+local Button = SabTab:CreateButton({
+    Name = "Legend Hub",
+    Description = nil, -- Creates A Description For Users to know what the button does (looks bad if you use it all the time),
+    Callback = function()
+        loadstring(game:HttpGet("https://scripts.city/LegendHub.lua"))()
+    end
+})
+
+local Button = SabTab:CreateButton({
+    Name = "Feronik Hub",
+    Description = nil, -- Creates A Description For Users to know what the button does (looks bad if you use it all the time),
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Fenorik/FenorikHub/main/FenorikHubINIT.lua"))()
+    end
+})
+
+local NightsTab = Window:CreateTab({
+    Name = "99 Nights in the Forest",
+    Icon = "view_in_ar",
+    ImageSource = "Material",
+    ShowTitle = true -- This will determine whether the big header text in the tab will show
+})
+
+local Label = NightsTab:CreateLabel({
+    Text = "More soon",
+    Style = 2 -- Luna Labels Have 3 Styles : A Basic Label, A Green Information Label and A Red Warning Label. Look At The Following Image For More Details
+})
+
+local Button = NightsTab:CreateButton({
+    Name = "Voidware",
+    Description = Most popular, -- Creates A Description For Users to know what the button does (looks bad if you use it all the time),
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/nightsintheforest.lua", true))()
+    end
+})
+
+local Button = NightsTab:CreateButton({
+    Name = "Nazuro.Xyz",
+    Description = nil, -- Creates A Description For Users to know what the button does (looks bad if you use it all the time),
+    Callback = function()
+        loadstring(game:HttpGet("https://nazuro.xyz/99nights"))()
+    end
+})
+
+local Button = NightsTab:CreateButton({
+    Name = "Kaito Hub",
+    Description = nil, -- Creates A Description For Users to know what the button does (looks bad if you use it all the time),
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/xBK0EXUX"))()
+    end
 })
