@@ -79,37 +79,6 @@ local Button = unTab:CreateButton({
    end,
 })
 
-local esbrainTab = Window:CreateTab("Escape Tsunami For Brainrots!", nil) -- Title, Image
-local Section = esbrain:CreateSection("Escape Tsunami For Brainrots!")
-
-local Button = esbrainTab:CreateButton({
-   Name = "Ekuve Hub",
-   Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/ekuve/ekuvehub/main/main.lua"))()
-   end,
-})
-
-local Button = esbrainTab:CreateButton({
-   Name = "Speed Hub",
-   Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
-   end,
-})
-
-local Button = esbrainTab:CreateButton({
-   Name = "Blessed Hub X",
-   Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/mynamewendel-ctrl/Blessed-Hub-X-/refs/heads/main/Escape%20Tsunami%20For%20Brainrots.lua"))()
-   end,
-})
-
-local Button = esbrainTab:CreateButton({
-   Name = "Rat Hub",
-   Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/Ratkinator/RatX/refs/heads/main/Loader.lua",true))()
-   end,
-})
-
 --Plants Vs Brainrots tab----------------------------------------------------------------------------------------------
 local PvBTab = Window:CreateTab("Plants Vs Brainrots 🌻", nil) -- Title, Image
 local Section = PvBTab:CreateSection("Plants Vs Brainrots 🌻")
@@ -349,5 +318,36 @@ local Button = Blox FruitsTab:CreateButton({
    Name = "Blue X Hub",
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
+   end,
+})
+
+local esbrainTab = Window:CreateTab("Escape Tsunami For Brainrots!", nil) -- Title, Image
+local Section = esbrain:CreateSection("Escape Tsunami For Brainrots!")
+
+local Button = esbrainTab:CreateButton({
+   Name = "Ekuve Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/ekuve/ekuvehub/main/main.lua"))()
+   end,
+})
+
+local Button = esbrainTab:CreateButton({
+   Name = "Speed Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+   end,
+})
+
+local Button = esbrainTab:CreateButton({
+   Name = "Blessed Hub X",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/mynamewendel-ctrl/Blessed-Hub-X-/refs/heads/main/Escape%20Tsunami%20For%20Brainrots.lua"))()
+   end,
+})
+
+local Button = esbrainTab:CreateButton({
+   Name = "Rat Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Ratkinator/RatX/refs/heads/main/Loader.lua",true))()
    end,
 })
